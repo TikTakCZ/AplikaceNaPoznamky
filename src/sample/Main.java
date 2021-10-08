@@ -22,7 +22,7 @@ public class Main extends Application {
     private int sirka_okna = 1020;
 
     @Override
-    public void start(Stage hlavni_okno_aplikace) throws Exception{
+    public void start(Stage hlavni_okno_aplikace) {
 
         // Vlastnosti okna
         hlavni_okno_aplikace.setHeight(490);

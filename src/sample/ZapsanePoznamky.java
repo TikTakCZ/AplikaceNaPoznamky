@@ -1,6 +1,6 @@
 package sample;
 
-public class ZapsanePoznamky extends  NovaPoznamka{
+public class ZapsanePoznamky extends NovaPoznamka {
 
     private String poznamka;
     private String datum;

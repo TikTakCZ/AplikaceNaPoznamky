@@ -15,7 +15,7 @@ public class PripojeniKDatabazi{
     // Jmeno od databaze
     private final String jmeno = "root";
     // Heslo od databaze
-    private final String heslo = "KYkFM!vLIOO.NIh!VtO?";
+    private final String heslo = "skryto";
 
     public Connection pripojitSeKDatabazi(String adresa_databaze, String jmeno, String heslo) {
         try {
@@ -115,7 +115,7 @@ public class PripojeniKDatabazi{
         catch (Exception e) { System.out.println(e); }
     }
 
-    public void upravit_poznamku_v_databazi(TableView<ZapsanePoznamky> aktivni_poznamky, String obsah_poznamky, String datum, int cislo_poznamky){
+    public void upravit_poznamku_v_databazi(TableView<ZapsanePoznamky> aktivni_poznamky, String obsah_poznamky, String datum){
         try {
             // Vybrany obsah poznámky
             String vybrany_obsah_poznamky = aktivni_poznamky.getSelectionModel().getSelectedItem().getPoznamka();

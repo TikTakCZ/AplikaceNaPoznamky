@@ -83,7 +83,7 @@ public class NovaPoznamka extends PripojeniKDatabazi {
     public void upravit_poznamku(){
         try {
             // Upravení poznamky v databazi
-            upravit_poznamku_v_databazi(aktivni_poznamky, obsah_poznamky.getText(), vybrany_datum(vybrany_datum_pro_pripomenuti), cislo_poznamky);
+            upravit_poznamku_v_databazi(aktivni_poznamky, obsah_poznamky.getText(), vybrany_datum(vybrany_datum_pro_pripomenuti));
 
             // Zjištění pozice zakliknuté poznámky
             int pozice_vybrane_poznamky = aktivni_poznamky.getSelectionModel().getSelectedIndex();

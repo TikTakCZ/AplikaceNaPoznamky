@@ -27,7 +27,7 @@ public class HistoriePoznamek extends PripojeniKDatabazi{
     public Group vzhled_okna_historie_poznamek = new Group();
     public Scene scena_historie_poznamek = new Scene(vzhled_okna_historie_poznamek, Color.rgb(50, 52, 62));
 
-    // Tlacitko nova poznamka a historie poznamek pro prepnuti scen
+    // Tlacitko nova poznamka pro prepnuti scen
     public Button tlacitko_nova_poznamka_historie_poznamek = new Button();
 
     // Tabulka se splněnýma poznámkama
