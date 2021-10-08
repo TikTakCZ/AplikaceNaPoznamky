@@ -1,0 +1,59 @@
+.table-view{
+   -fx-background-color: rgb(43, 52, 62);
+   -fx-font-size: 14px;
+}
+
+.table-view:focused{
+    -fx-background-color: rgb(43, 52, 62);
+}
+
+.table-view .column-header-background{
+    -fx-background-color: rgb(43, 52, 62);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: rgb(43, 52, 62);
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: rgb(43, 52, 62);
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, rgb(43, 52, 62);
+}
+
+.table-row-cell:selected {
+    -fx-background-color: lightskyblue;
+}
+
+
+
+
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color:transparent;
+	-fx-background-radius: 2em;
+
+}
+
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+	-fx-background-color: transparent;
+	-fx-border-color:derive( rgb(43, 52, 62),0%);
+
+	-fx-background-radius: 2em;
+	-fx-border-radius:2em;
+}
+
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive( rgb(43, 52, 62),0%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+
+}
